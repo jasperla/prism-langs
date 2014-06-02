@@ -13,5 +13,5 @@ Prism.languages.insertBefore('yaml', 'attr-name', {
     },
     rest: Prism.languages.yaml
   },
-  'keyword': /(&#38;|&amp;|&|\*)[\w]+/,
+  'keyword': /(&#38;|&amp;|&\z|\*)[\w]+/,
 });
