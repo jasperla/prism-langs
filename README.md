@@ -1,7 +1,7 @@
 prism-langs
 ===
 
-[prism.js](http://prismjs.com/) language components for Puppet and YAML.
+[prism.js](http://prismjs.com/) language components for Puppet, YAML, VHDL and UCF.
 
 Usage
 ---
@@ -10,6 +10,8 @@ Usage
 	<script src="prism.js"></script>
 	<script src="prism-puppet.js"></script>
 	<script src="prism-yaml.js"></script>
+	<script src="prism-vhdl.js"></script>
+	<script src="prism-ucf.js"></script>
 ````
 
 And add these CSS classes to the stylesheet:
